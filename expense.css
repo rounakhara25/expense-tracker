@@ -1,0 +1,87 @@
+/* style.css */
+body { 
+	font-family: Arial, sans-serif; 
+	margin: 20px; 
+} 
+
+.container { 
+	max-width: 800px; 
+	margin: 0 auto; 
+	background-color:powderblue; 
+	padding: 20px; 
+	border-radius: 8px; 
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+} 
+
+h1 { 
+	text-align: center; 
+	margin-bottom: 20px; 
+} 
+
+form {
+    background-color: palevioletred; 
+	display: flex; 
+	justify-content: center; 
+	margin-bottom: 20px; 
+} 
+
+input[type="text"], 
+input[type="number"] { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	outline: none; 
+} 
+
+input[type="text"]::placeholder, 
+input[type="number"]::placeholder { 
+	color: rebeccapurple; 
+} 
+
+button { 
+	padding: 10px 20px; 
+	background-color: purple; 
+	color: white; 
+	border: none; 
+	border-radius: 4px; 
+	cursor: pointer; 
+} 
+
+button:hover { 
+	background-color: #45a049; 
+} 
+
+.expense-table { 
+	border: rebeccapurple; 
+	border-radius: 8px; 
+	overflow: hidden; 
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+} 
+
+table { 
+    color:black;
+	width: 100%; 
+	border-collapse: collapse; 
+} 
+
+thead th { 
+	background-color: plum; 
+	padding: 10px; 
+	text-align: left; 
+} 
+
+tbody td { 
+	padding: 10px; 
+	border-top: rgb(57, 219, 219); 
+} 
+
+.delete-btn { 
+	color: red; 
+	cursor: pointer; 
+} 
+
+.total-amount { 
+	padding: 10px; 
+	text-align: right; 
+	background-color:rosybrown; 
+}
